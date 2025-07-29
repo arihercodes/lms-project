@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class DBUtil {
-    private static final String CONFIG_FILE = "db_config.properties";
+    private static final String CONFIG_FILE = "sample_config.properties";
     private static Connection connection;
 
     public static Connection getConnection() {
