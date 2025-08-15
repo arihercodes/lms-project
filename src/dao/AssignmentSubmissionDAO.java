@@ -7,7 +7,7 @@ import java.sql.*;
 public class AssignmentSubmissionDAO {
     private final String url = "jdbc:mysql://localhost:3306/lms";
     private final String username = "root";
-    private final String password = "puklamysql@!23";
+    private final String password = "YOUR_SQL_PASSWORD";
 
     public boolean submitAssignment(AssignmentSubmission submission) {
         String query = "INSERT INTO submitted_assignments (assignment_id, student_email, submitted_file_path, submitted_at) " +
